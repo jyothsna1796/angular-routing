@@ -1,0 +1,6 @@
+<h2>employee details</h2>
+<ul class = "items">
+    <li  (click)="onSelect(emp)" *ngFor="let emp of employees">
+        <span class="badge"> {{emp.id}} </span>{{emp.name}}
+    </li>
+</ul>
